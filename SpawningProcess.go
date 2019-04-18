@@ -39,8 +39,7 @@ func main() {
 	}
 	fmt.Println("ls -a -l -h ") 
 	fmt.Println(string(lsOut))
-
-
+	
 }
 
 // 创建子进程需要使用的包是 os/exec 包
